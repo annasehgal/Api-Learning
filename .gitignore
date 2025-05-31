@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -106,5 +105,12 @@ out/
 .idea/
 *.swp
 *.swo
->>>>>>> 1fb0a2c (Updated .gitignore, README.md)
 
+# ---------------------
+# Rust
+# ---------------------
+/target/
+**/*.rs.bk
+.env
+*.tmp
+*.temp
