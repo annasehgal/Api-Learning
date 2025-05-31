@@ -25,3 +25,9 @@ button {
     background-color: rgb(139, 70, 20);
     color: beige;
 }
+
+button:hover {
+    background-color: peru;
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
