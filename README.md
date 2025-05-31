@@ -1,4 +1,4 @@
-# Notes
+# Note: I built this to learn and have some fun
 ## Python
 ### dog_api.py
 - Request library is to make HTTP requests (API calls are made using HTTP requests).
