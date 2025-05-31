@@ -20,3 +20,10 @@
 - try-catch blocks are for exceptions and error that might occur during the execution of code.
 - alert(..) functions shows a message, pop up and user has to press OK, if there is an error.
 - fetch is used in this case with await
+
+## Rust
+### Cargo.toml
+- Add dependencies:
+    * reqwest (for HTTP)
+    * tokio (for async) // note for me: ureq is used for sync
+    * serde (for JSON--Serialization/deserialization)
