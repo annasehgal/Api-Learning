@@ -1,5 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    color: rgb(232, 226, 226);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,6 +8,10 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: bisque;
+    background-image: url('./assets/paws.jpeg');
+    background-size: 250px;
+    background-position: center;
+    opacity:0.97;
 }
 
 img {
@@ -24,10 +29,11 @@ button {
     cursor: pointer;
     background-color: rgb(139, 70, 20);
     color: beige;
+    border-radius: 13px;
 }
 
 button:hover {
-    background-color: peru;
-    transform: scale(1.05);
+    background-color: rgb(169, 101, 33);
+    transform: scale(1.01);
     transition: all 0.2s ease-in-out;
 }
