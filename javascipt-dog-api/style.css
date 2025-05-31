@@ -1,0 +1,27 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: monospace;
+    cursor: not-allowed;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    cursor: pointer;
+    background-color: rgb(139, 70, 20);
+    color: beige;
+}
